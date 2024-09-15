@@ -4,9 +4,9 @@ Feature: TS01 Uso de una API para videollamadas
     para facilitar las asesorías en la aplicación
 
 Scenario: Creación de videollamada
-    Given el usuario tiene una asesoría pendiente.
+    Given el <usuario> tiene una asesoría pendiente.
     When seleccione la opción de ingresar a la asesoría.
-    Then el sistema lo redireccionará a un enlace con la videollamada de Jitsi Meet para que el usuario acceda a la asesoría. 
+    Then el sistema lo redireccionará a un <enlace> con la videollamada de Jitsi Meet para que el <usuario> acceda a la asesoría. 
 
 Examples:
 | usuario  | enlace                        |
