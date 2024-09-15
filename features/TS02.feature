@@ -1,4 +1,4 @@
-Feature: US29 Uso de un API para alojar imágenes
+Feature: TS02 Uso de un API para alojar imágenes
     Como desarrollador 
     quiero integrar la API de almacenamiento de Firebase 
     para que los usuarios puedan subir y visualizar sus imágenes de foto de perfil y publicaciones.
